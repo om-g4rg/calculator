@@ -1,0 +1,127 @@
+body {
+  background-color: wheat;
+  margin: 0;
+  padding: 0;
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; */
+}
+
+.top {
+  width: 100%;
+  height: 31rem;
+  background-color: rgb(107, 46, 20);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 6.5rem;
+}
+
+.welcome {
+  font-size: 5rem;
+  color: wheat;
+}
+
+.pop {
+  width: 7.3rem;
+  height: 3rem;
+  border-radius: 0.5rem;
+  background-color: white;
+  color: black;
+}
+.pop:hover {
+  background-color: black;
+  color: white;
+}
+
+.form-container {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(5px);
+  z-index: 5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.login-box {
+  width: 60%;
+  height: 30rem;
+  background-color: rgb(193, 193, 193);
+  border-radius: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.username {
+  width: 50%;
+  height: 5vh;
+}
+
+.password {
+  width: 50%;
+  height: 5vh;
+}
+.action {
+  display: flex;
+  gap: 2rem;
+}
+.login {
+  width: 50%;
+  height: 5vh;
+}
+.login:hover {
+  background-color: rgb(0, 192, 0);
+  color: white;
+}
+
+.back {
+  width: 50%;
+  height: 5vh;
+}
+.back:hover {
+  background-color: red;
+  color: white;
+}
+.mid {
+  width: 100%;
+  height: 40rem;
+  background-color: wheat;
+  display: flex;
+  flex-direction: column;
+}
+.about {
+  width: 100%;
+  height: 12vh;
+  background-color: pink;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4rem;
+}
+.ch {
+  width: 100%;
+  height: 22vh;
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+}
+.btm {
+  width: 100%;
+  height: 3rem;
+  background-color: rgb(160, 92, 10);
+}
